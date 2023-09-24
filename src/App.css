@@ -127,28 +127,3 @@ h1 {
   color: red;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    text-align: center; /* Center text within the body */
-  }
-
-  .project-body-container {
-    margin: 1.5rem auto; /* Center horizontally on smaller screens */
-  }
-
-  ul {
-    list-style: none;
-    margin-right: 20px;
-  }
-
-  .button-link {
-    margin-left: 2.5rem;
-    text-align: center;
-    width: 75vw;
-  }
-
-  h5{
-    font-size: 25px;
-  }
-
-}
