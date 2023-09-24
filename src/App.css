@@ -127,3 +127,39 @@ h1 {
   color: red;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+      font-size: 25px;
+  }
+
+  .primary-header_links button {
+    text-align: center;
+    background-color: black;
+    font-size: 1rem;
+    margin: 0px 1vh;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 3px gray;
+    transition: transform 0.5 ease;
+    position: relative; /* Required for absolute positioning of stars */
+  }
+
+  .project-body-container {
+    color:white;
+    margin:auto 10px
+  }
+  
+  .project-body-container img {
+    margin-top: 1.5rem;
+    width: 200px;
+    margin: 1.2rem auto; 
+}
+
+
+ h2, h3, p, h5 {
+  text-align: center;
+  font-size: large;
+ }
+ 
+  
+}

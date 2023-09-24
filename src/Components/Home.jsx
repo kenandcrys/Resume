@@ -10,8 +10,11 @@ export default function Home() {
         React.js, Redux, Jest, Cypress, Yup, Axios, JavaScript, HTML, CSS,
         Bootstrap
       </p>
-      <h3>Back End:</h3> Basic Python, Git CLI, VS Code, Node.js, Express.js,
+      <h3>Back End:</h3> 
+      <p>
+      Basic Python, Git CLI, VS Code, Node.js, Express.js,
       Postman, RESTful API, SQL
+      </p>
       <div>
         <h2>PROJECTS</h2>
 
