@@ -19,7 +19,7 @@ const Contact = () => {
         <h2>
           LinkedIn:
           <a target="blank" href="https://linkedin.com/in/fish-kfishersr">
-            linkedin.com/in/fish-kfishersr
+            fish-kfishersr
           </a>
         </h2>
 
