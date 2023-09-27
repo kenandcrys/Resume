@@ -35,7 +35,7 @@ export default function Home() {
         <a
           className="button-link"
           target="blank"
-          href="https://github.com/kenandcrys/authenticate-me"
+          href="https://github.com/kenandcrys/auth-me"
         >
           <h3>Authenticate-me</h3>
         </a>
