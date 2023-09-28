@@ -87,13 +87,6 @@ h3, h5 {
   
 }
 
-
-
-
-
-
-
-
 .tech-skills-container {
   justify-content: center;
   text-align: center;
@@ -113,9 +106,8 @@ h3, h5 {
 }
 
 .button-link {
-  
   display: flex;
-  padding: 0px 5px;
+  padding: 10px 20px; /* Adjust padding for a larger button */
   width: fit-content;
   justify-content: space-evenly;
   background-color: #007bff;
@@ -124,7 +116,38 @@ h3, h5 {
   border-radius: 5px;
   margin: auto;
   transition: background-color 0.3s ease;
+  animation: backgroundChange 1s infinite ease-in-out; /* Add animation properties */
+  /* Apply a box-shadow around the button */
 }
+
+.button-link:hover {
+  box-shadow: 0 0 0 5px purple; /* Change the shadow color on hover */
+}
+
+@keyframes backgroundChange {
+  0% {
+    box-shadow: 0 0 0 0px #eaf0e1; /* Keep the shadow consistent */
+  }
+  25% {
+    box-shadow: 0 0 5px 5px #eaf0e1; /* Increase the blur and spread radius */
+  }
+  50% {
+    box-shadow: 0 0 10px 5px #eaf0e1; /* Further increase the blur and spread radius */
+  }
+  75% {
+    box-shadow: 0 0 5px 5px #eaf0e1; /* Reduce the blur and spread radius */
+  }
+  100% {
+    box-shadow: 0 0 0 0px #eaf0e1; /* Back to the original shadow */
+  }
+}
+
+
+
+
+
+
+
 
 .button-link:hover {
   background-color: #06386d;
