@@ -101,7 +101,7 @@ h3, h5 {
 
 .button-link {
   display: flex;
-  padding: 10px 20px; /* Adjust padding for a larger button */
+  padding: 0px 5px; /* Adjust padding for a larger button */
   width: fit-content;
   justify-content: space-evenly;
   background-color: #007bff;
@@ -115,29 +115,10 @@ h3, h5 {
 }
 
 .button-link:hover {
-  box-shadow: 0 0 0 5px purple; /* Change the shadow color on hover */
+  box-shadow: 0 0 0 5px purple;
+  color:white; /* Change the shadow color on hover */
 }
 
-.button-link:hover{
-
-  @keyframes backgroundChange {
-    0% {
-      box-shadow: 0 0 0 0px #eaf0e1; /* Keep the shadow consistent */
-    }
-    25% {
-      box-shadow: 0 0 5px 5px #eaf0e1; /* Increase the blur and spread radius */
-    }
-    50% {
-      box-shadow: 0 0 10px 5px #eaf0e1; /* Further increase the blur and spread radius */
-    }
-    75% {
-      box-shadow: 0 0 5px 5px #eaf0e1; /* Reduce the blur and spread radius */
-    }
-    100% {
-      box-shadow: 0 0 0 0px #eaf0e1; /* Back to the original shadow */
-    }
-  }
-}
 
 @keyframes backgroundChange {
   0% {
@@ -156,13 +137,6 @@ h3, h5 {
     box-shadow: 0 0 0 0px #eaf0e1; /* Back to the original shadow */
   }
 }
-
-
-
-
-
-
-
 
 .button-link:hover {
   background-color: #06386d;
