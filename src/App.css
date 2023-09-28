@@ -4,12 +4,6 @@ body {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
-
-
-
-
 .welcomeText {
   display: flex;
   justify-content: center;
@@ -116,7 +110,7 @@ h3, h5 {
   border-radius: 5px;
   margin: auto;
   transition: background-color 0.3s ease;
-  animation: backgroundChange 1s infinite ease-in-out; /* Add animation properties */
+  animation: backgroundChange 1.5s infinite ease-in-out; /* Add animation properties */
   /* Apply a box-shadow around the button */
 }
 
