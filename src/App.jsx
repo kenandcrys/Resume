@@ -6,6 +6,7 @@ import Contact from "./Components/Contact";
 import Cover from "./Components/Cover";
 import References from "./Components/References";
 import Footer from "./Components/Footer";
+// import Certifications from "./Components/Certifications";
 import { useEffect, useState } from "react";
 
 const welcomeText = "Welcome To Kenneth Fisher's Resume";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/cover" element={<Cover />} />
           <Route path="/references" element={<References />} />
+          {/* <Route path="/certs" element={<Certifications />} /> */}
         </Routes>
         <Footer />
       </div>

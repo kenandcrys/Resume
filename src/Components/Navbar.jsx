@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -25,6 +24,15 @@ const Navbar = () => {
             <Link className="link" to="/references" rel="noopener noreferrer">
               References
             </Link>
+          </button>
+          <button>
+            <a
+              href="https://www.linkedin.com/in/fish-kfishersr/details/certifications/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Certifications
+            </a>
           </button>
         </div>
       </nav>
