@@ -1,7 +1,8 @@
 body {
   
-  background-color: black;;
+  background-color: darkslategrey;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .welcomeText {
@@ -11,7 +12,9 @@ body {
   font-weight: 300;
   color:white;
   padding: 10px 0px;
-  text-align: center;
+  text-align: center !important;
+  width:fit-content;
+  margin:auto;
  
 }
 
@@ -103,6 +106,7 @@ h3, h5 {
   display: flex;
   padding: 0px 5px; /* Adjust padding for a larger button */
   width: fit-content;
+  
   justify-content: space-evenly;
   background-color: #007bff;
   color: #fff;
