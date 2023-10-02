@@ -40,7 +40,7 @@ export default function Home() {
           <h3>Authenticate-me</h3>
         </a>
 
-        <h5>Fullstack Developer:</h5>
+        <h5>Backend Developer:</h5>
         
           
             <p>Setup an SQL database to store user information and request.</p>
@@ -67,7 +67,7 @@ export default function Home() {
         >
           <h3>Nature’s Blessing Photography</h3>
         </a>
-        <h5>Fullstack Developer:</h5>
+        <h5>Frontend Developer:</h5>
         
           
             <p>
