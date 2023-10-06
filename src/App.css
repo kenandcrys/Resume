@@ -17,7 +17,7 @@ body {
   margin:auto;
 }
 
-h3, h5 {
+h5 {
   font-size: 1.5rem;
 }
 
@@ -92,7 +92,9 @@ h3, h5 {
 
 
 .projects-container {
+  display: flex;
   text-align: center;
+  flex-direction: column;
   justify-content: center; 
   max-width: 100vw;   
   margin: 25px;
@@ -102,25 +104,26 @@ h3, h5 {
   list-style-type: none;
 }
 
-.button-link {
-  display: flex;
-  padding: 0px 5px; /* Adjust padding for a larger button */
-  width: fit-content;
-  
-  justify-content: space-evenly;
+.button-link h3{
+  padding: 5px 10px !important;
+  text-align: center;
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin: auto;
+  margin:auto;
+  width:fit-content;
   transition: background-color 0.3s ease;
-  animation: backgroundChange 1.5s infinite ease-in-out; /* Add animation properties */
-  /* Apply a box-shadow around the button */
+  animation: backgroundChange 1.5s infinite ease-in-out;
+  
 }
 
-.button-link:hover {
+.button-link h3:hover {
   box-shadow: 0 0 0 5px purple;
-  color:white; /* Change the shadow color on hover */
+  color:white;
+  animation: none; /* Change the shadow color on hover */
+  width:fit-content;
+  
 }
 
 
@@ -142,7 +145,7 @@ h3, h5 {
   }
 }
 
-.button-link:hover {
+.button-link :hover {
   background-color: #06386d;
   box-shadow: 4px 4px 8px white;
 }

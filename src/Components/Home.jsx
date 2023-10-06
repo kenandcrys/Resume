@@ -33,7 +33,7 @@ export default function Home() {
         <h2>PROJECTS</h2>
 
         <a
-          className="button-link"
+          className="button-link "
           target="blank"
           href="https://github.com/kenandcrys/auth-me"
         >
