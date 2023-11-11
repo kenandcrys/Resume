@@ -15,34 +15,25 @@ const animationDelay = 200; // Adjust the delay as needed
 function App() {
   const [visibleText, setVisibleText] = useState('');
 
-const WaveText = ({ welcomeText, animationDelay }) => {
-  const animateText = (index) => {
-    const waveHeight = 5; // Adjust this value to control the wave height
-    const waveSpeed = 0.1; // Adjust this value to control the wave speed
-
-    if (index <= welcomeText.length) {
-      const offset = waveHeight * Math.sin(waveSpeed * index);
-      setTimeout(() => {
-        setVisibleText(welcomeText.substring(0, index));
-        setOffsetY(offset);
-        animateText(index + 1);
-      }, animationDelay);
-    }
-  };
-
-  const [visibleText, setVisibleText] = useState('');
-  const [offsetY, setOffsetY] = useState(0);
-
   useEffect(() => {
-    animateText(1);
-  }, [welcomeText, animationDelay]);
+    const animateText = async () => {
+      for (let i = 0; i < welcomeText.length; i++) {
+        await new Promise((resolve) => setTimeout(resolve, animationDelay));
+        setVisibleText(welcomeText.substring(0, i + 1));
+      }
+    };
 
-  const style = {
-    transform: `translateY(${offsetY}px)`,
-  };
+    animateText();
+  }, []);  useEffect(() => {
+    const animateText = async () => {
+      for (let i = 0; i < welcomeText.length; i++) {
+        await new Promise((resolve) => setTimeout(resolve, animationDelay));
+        setVisibleText(welcomeText.substring(0, i + 1));
+      }
+    };
 
-  return <div style={style}>{visibleText}</div>;
-};
+    animateText();
+  }, []);
 
   return (
     <Router>
