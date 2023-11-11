@@ -16,6 +16,8 @@ const References = () => {
 
             <a target="blank" href="https://docs.google.com/document/d/1qZdz61RsBjvq9RDixB-xVbHG7E9Rq5pX/edit?usp=sharing&ouid=102990893153866400884&rtpof=true&sd=true">Andrea Green</a>
 
+            <a target="blank" href="https://docs.google.com/document/d/1GdxqBCcrFTOUa_bXn0Aq4pHMaKN93DkoLyJ_OWEU6T4/edit?usp=sharing">Kaleb Rupe</a>
+            
             <a target="blank" href="https://docs.google.com/document/d/1B_WfJxaoLL6RI3CwSW1En_3uGTavlrnf/edit?usp=sharing&ouid=102990893153866400884&rtpof=true&sd=true">Brooke Shepard</a>
 
         </div>
